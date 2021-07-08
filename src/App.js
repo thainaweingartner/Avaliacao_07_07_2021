@@ -54,8 +54,8 @@ function App() {
               <FaUserFriends /> 
               {user.followers} Followers
             </h4>
-            <a href={user.public_repos} target="_blank"> 
-              Acessar Repositórios
+            <a href={user.html_url} target="_blank"> 
+              Acessar Página no Github
             </a>
           </div>
         </div>
